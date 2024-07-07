@@ -1,0 +1,39 @@
+{
+  "name": "zora-framework",
+  "version": "1.0.0",
+  "description": "Zora - An Electron app with XAMPP integration",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Milton Vafana",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^24.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.zoraframework.zora",
+    "productName": "Zora",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "package.json",
+      "main.js",
+      "resources/**",
+      "node_modules/**"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "include": "include.nsh"
+    }
+  }
+}

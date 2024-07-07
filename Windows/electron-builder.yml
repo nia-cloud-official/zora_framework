@@ -1,0 +1,17 @@
+appId: com.example.myapp
+productName: MyElectronApp
+directories:
+  output: dist
+files:
+  - package.json
+  - main.js
+  - resources/**
+  - node_modules/**
+win:
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  installerHeaderIcon: path/to/icon.ico
+  include: include.nsh
