@@ -1,12 +1,7 @@
-### Introduction
-
-So I created the Zora Framework so i decided to make it run as an executable on Windows so I used some electron! Kind of interesting stuff so here is a full guide as to how i did it incase you might want to use this approach.
+Certainly! Here is the complete compilation of all the Markdown documents into a single file named `Zora-Electron-XAMPP-Guide.md`:
 
 
-#### `00-Introduction.md`
-
-```markdown
-# Creating an Electron App with XAMPP Integration
+### Creating an Electron App with XAMPP Integration
 
 Welcome to this comprehensive guide on creating an Electron app with XAMPP integration. In this guide, you will learn how to:
 
@@ -16,16 +11,12 @@ Welcome to this comprehensive guide on creating an Electron app with XAMPP integ
 4. Create an installer that includes XAMPP installation.
 
 Let's get started!
-```
 
-### Chapter 1: Project Initialization
+---
 
-#### `01-Project-Initialization.md`
+## Chapter 1: Project Initialization
 
-```markdown
-# Chapter 1: Project Initialization
-
-## Step 1: Create a Project Directory
+### Step 1: Create a Project Directory
 
 First, create a directory for your project:
 
@@ -34,7 +25,7 @@ mkdir my-electron-app
 cd my-electron-app
 ```
 
-## Step 2: Initialize a Node.js Project
+### Step 2: Initialize a Node.js Project
 
 Initialize a new Node.js project by running the following command:
 
@@ -42,23 +33,19 @@ Initialize a new Node.js project by running the following command:
 npm init -y
 ```
 
-## Step 3: Install Electron
+### Step 3: Install Electron
 
 Install Electron as a development dependency:
 
 ```bash
 npm install electron --save-dev
 ```
-```
 
-### Chapter 2: Writing the Main Script
+---
 
-#### `02-Writing-the-Main-Script.md`
+## Chapter 2: Writing the Main Script
 
-```markdown
-# Chapter 2: Writing the Main Script
-
-## Step 1: Create `main.js`
+### Step 1: Create `main.js`
 
 Create a file named `main.js` in your project directory. This file will contain the main script for your Electron application.
 
@@ -160,16 +147,12 @@ app.on('activate', function () {
   }
 });
 ```
-```
 
-### Chapter 3: Configuring `package.json`
+---
 
-#### `03-Configuring-package-json.md`
+## Chapter 3: Configuring `package.json`
 
-```markdown
-# Chapter 3: Configuring `package.json`
-
-## Step 1: Update `package.json` with Specific Electron Version
+### Step 1: Update `package.json` with Specific Electron Version
 
 Update your `package.json` to include the Electron and `electron-builder` versions. Make sure to replace `^latest-version` with actual versions.
 
@@ -216,23 +199,9 @@ Update your `package.json` to include the Electron and `electron-builder` versio
 }
 ```
 
-## Step 2: Install Specific Electron Version
-
-Run the following command to install the specified version of Electron:
-
-```bash
-npm install electron@24.0.0 --save-dev
-```
-```
-
 ### Chapter 4: Creating `include.nsh`
 
-#### `04-Creating-include-nsh.md`
-
-```markdown
-# Chapter 4: Creating `include.nsh`
-
-## Step 1: Create `include.nsh`
+#### Step 1: Create `include.nsh`
 
 Create an `include.nsh` file in the root of your project to handle the custom XAMPP installation steps.
 
@@ -250,7 +219,7 @@ Create an `include.nsh` file in the root of your project to handle the custom XA
 !macroend
 ```
 
-## Step 2: Ensure XAMPP Installer is in `resources` Directory
+#### Step 2: Ensure XAMPP Installer is in `resources` Directory
 
 Place the XAMPP installer executable in a `resources` directory within your project:
 
@@ -263,16 +232,12 @@ project-root/
 ├── include.nsh
 └── ...
 ```
-```
 
-### Chapter 5: Building the Installer
+---
 
-#### `05-Building-the-Installer.md`
+## Chapter 5: Building the Installer
 
-```markdown
-# Chapter 5: Building the Installer
-
-## Step 1: Build the Installer
+### Step 1: Build the Installer
 
 Run the build command:
 
@@ -282,21 +247,9 @@ npm run build
 
 This command will use `electron-builder` to create an installer for your Electron application. The resulting installer will be located in the `dist` directory.
 
-## Conclusion
+---
 
-Congratulations! You have successfully created an Electron app with XAMPP integration and built an installer that ensures XAMPP is installed and running for your PHP web app.
-
-This concludes the guide. If you have any questions or need further assistance, feel free to reach out.
-
-Happy coding!
-```
-
-### Book Summary
-
-#### `00-Book-Summary.md`
-
-```markdown
-# Book Summary
+## Book Summary
 
 This book provided a detailed guide on creating an Electron app that integrates with XAMPP, including how to:
 
@@ -306,5 +259,3 @@ This book provided a detailed guide on creating an Electron app that integrates 
 4. Create an installer that includes XAMPP installation.
 
 By following this guide, you should now have a fully functional Electron app that ensures XAMPP is properly installed and running, allowing you to serve your PHP web application seamlessly.
-
-Thank you for following along, and we hope this guide has been helpful!
