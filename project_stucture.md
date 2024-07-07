@@ -1,30 +1,7 @@
-zora/
-├── config/
-│   └── database.php
-├── public/
-│   ├── index.php
-│   └── assets/
-│       ├── css/
-│       │   └── style.css
-│       └── js/
-│           └── script.js
-├── src/
-│   ├── Controllers/
-│   │   └── TestController.php
-│   ├── Models/
-│   │   └── Database.php
-│   ├── Views/
-│   │   └── index.php
-│   └── Framework/
-│       ├── Zora.php
-│       ├── MySQLTest.php
-│       ├── PostgreSQLTest.php
-│       ├── MongoDBTest.php
-│       └── Report.php
-├── tests/
-│   ├── CustomTest.php
-│   └── suites/
-│       ├── IntegrityTest.php
-│       └── PerformanceTest.php
-└── vendor/
-    └── autoload.php
+# Show some Love!
+
+Hey this project is a long and i mean very long way from perfect ...But l'm trying.. Please do contribute if you are interested and don't forget to :star: it!&#x20;
+
+
+
+Lol, Thanks&#x20;

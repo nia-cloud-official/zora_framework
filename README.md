@@ -156,4 +156,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 #### Feedback and Support
 
-Your feedback is valuable! Please open issues for bug reports, feature requests, or general feedback. For support inquiries, reach out to [your.email@example.com](mailto:your.email@example.com).
+Check out the documentation on [https://docs.zoralumin.com](https://docs.zoralumin.com)
+Your feedback is valuable! Please open issues for bug reports, feature requests, or general feedback. For support inquiries, reach out to [miltonhyndrex@gmail.com](mailto:miltonhyndrex@gmail.com).
